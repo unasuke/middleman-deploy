@@ -4,12 +4,11 @@ cache: bundler
 bundler_args: --without development
 rvm:
   - ruby-head
-  - ruby
-  - jruby-head
-  - jruby
   - 2.3.0
   - 2.2.0
   - 2.1.0
+  - jruby-head
+  - jruby
   - rbx-2
 before_script: bundle update
 matrix:
